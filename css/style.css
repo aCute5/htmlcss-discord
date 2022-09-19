@@ -96,10 +96,27 @@ nav{
             padding-right: 5px;
             padding-bottom: 5px;         
   }
-
-                
-                    
-
+  .container-section1{
+                        display: flex;
+                        width:1200px;
+                        background-color: white;
+                        justify-content: center;
+  }
+  .section-first{
+                max-width: 1000px;
+                display:flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                padding-top: 100px;
+  }
+  .svg{
+        flex-basis: 65%;
+  }
+  .section-first div{                        
+                      flex-basis: 35%;
+  }
 
                                                 
 
