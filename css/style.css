@@ -85,7 +85,7 @@ nav{
                     padding-right: 5px;
                     padding-bottom: 5px; 
 } 
-  .browser{
+.browser{
             border: none;
             background-color:rgb(0, 0, 0);                           
             border-radius: 14px 14px 11px;
@@ -96,13 +96,13 @@ nav{
             padding-right: 5px;
             padding-bottom: 5px;         
   }
-  .container-section1{
+.container-section{
                         display: flex;
                         width:1200px;
                         background-color: white;
                         justify-content: center;
   }
-  .section-first{
+.section-first{
                 max-width: 1000px;
                 display:flex;
                 flex-wrap: nowrap;
@@ -111,12 +111,52 @@ nav{
                 align-items: center;
                 padding-top: 100px;
   }
-  .svg{
+.svg{
         flex-basis: 65%;
   }
-  .section-first div{                        
+.section-first div{                        
                       flex-basis: 35%;
   }
+.section-second{
+                    max-width: 1000px;
+                    display:flex;
+                    flex-wrap: nowrap;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    padding-top: 100px;
+}
+.svg-second{
+            flex-basis: 60%;      
+}
+.section-second div{                        
+                    flex-basis:40%;
+}
+.section-third{
+    max-width: 1000px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+}
+.svg-third{
+            flex-basis: 60%;      
+}
+.section-second div{                        
+                    flex-basis:40%;
+}
+.section-fourth{
+                max-width: 1000px;
+                display:flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 100px;
+                justify-content: center;
+                text-align: center;
+            }
+
+
 
                                                 
 
