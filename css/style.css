@@ -100,7 +100,8 @@ a{
             padding-top: 5px;
             padding-left: 5px;
             padding-right: 5px;
-            padding-bottom: 5px;         
+            padding-bottom: 5px; 
+                   
   }
 .container-section{
                         display: flex;
@@ -131,6 +132,7 @@ a{
                     align-items: center;
                     padding-top: 100px;
                     background-color: rgba(44, 47, 51, 10%);
+                    background-image:url(../img/wave.svg);
 }
 .svg-second{
             flex-basis: 60%;      
