@@ -13,6 +13,7 @@ header{
         display: flex;
         flex-direction: row;  
         flex-wrap: wrap;
+        justify-content: center;
 
 }
 nav{
@@ -114,6 +115,7 @@ a{
                 justify-content: flex-start;
                 align-items: center;
                 padding-top: 100px;
+                
   }
 .svg{
         flex-basis: 65%;
@@ -122,12 +124,13 @@ a{
                       flex-basis: 35%;
   }
 .section-second{
-                    max-width: 1000px;
+                    
                     display:flex;
                     flex-wrap: nowrap;
                     flex-direction: row-reverse;
                     align-items: center;
                     padding-top: 100px;
+                    background-color: rgba(44, 47, 51, 10%);
 }
 .svg-second{
             flex-basis: 60%;      
@@ -150,14 +153,20 @@ a{
                     flex-basis:50%;
 }
 .section-fourth{
-                max-width: 1000px;
+                
                 display:flex;
                 flex-wrap: nowrap;
                 flex-direction: column;
                 align-items: center;
                 padding-top: 100px;
                 text-align: center;
-            }
+                background-color: rgba(44, 47, 51, 10%);
+  }                
+                
+             
+
+              
+           
 .stars{
         width: 700px;
         background-image:url(../img/stars.svg);
