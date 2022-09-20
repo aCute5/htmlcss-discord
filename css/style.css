@@ -25,6 +25,9 @@ nav{
     margin-left: 70px;
     padding-top: 10px;
 }
+a{
+  all: unset;
+}
 .container-nav-center{
                         display: flex;
                         justify-content: center;
@@ -44,13 +47,13 @@ nav{
                         justify-content: space-around;
                         flex-grow: 1;
 }
-.container-nav-side>button{
+.container-nav-side>a{
                             border: none;
                             background-color:rgb(241, 241, 241);                           
                             border-radius: 10em;
                             color: black;
                             font-size: 12px;
-                            padding-top: 5px;
+                            padding-top: 10px;
                             padding-left: 5px;
                             padding-right: 5px;
                             padding-bottom: 5px; 
@@ -180,30 +183,32 @@ nav{
         justify-content: center;
 }
 .container-footer{
-                  
                   display: flex;
                   justify-content: space-around;
-                  flex-wrap: nowrap;
-                  flex-basis: 60%;
-                  
-                  
-}   
+                  align-items: flex-start;
+                  width: 800px;
+                 
+}                   
 .footer img{
             max-width: 30px;
 }
+footer li{
+          list-style-type: none;
+}
+
 .footer-column{
                 display:flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: flex-start;
                 flex-grow: 1;
+                padding-top: 20px;
+                color: white;
+                align-content: space-around;
+                align-items: stretch;
                 
 }            
 .footer-column-ita{
                     display: flex;
                     justify-content: space-around;                    
                     flex-direction: column;
-                    align-content: center;
                     flex-grow: 2;
                     
                     
@@ -211,6 +216,15 @@ nav{
 .titles{
         color: rgb(114, 137, 218);
 }
+hr{
+  color: white;
+}             
+                                   
+
+                  
+                  
+
+
                          
                   
 
