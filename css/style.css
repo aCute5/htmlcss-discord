@@ -26,7 +26,8 @@ nav{
     padding-top: 10px;
 }
 a{
-  all: unset;
+  text-decoration: none;
+  color: white;
 }
 .container-nav-center{
                         display: flex;
@@ -185,8 +186,8 @@ a{
 .container-footer{
                   display: flex;
                   justify-content: space-around;
-                  align-items: flex-start;
-                  width: 800px;
+                   width: 800px;
+                   align-content: space-between ;
                  
 }                   
 .footer img{
@@ -198,28 +199,88 @@ footer li{
 
 .footer-column{
                 display:flex;
-                flex-grow: 1;
                 padding-top: 20px;
                 color: white;
-                align-content: space-around;
-                align-items: stretch;
-                
 }            
 .footer-column-ita{
                     display: flex;
-                    justify-content: space-around;                    
                     flex-direction: column;
-                    flex-grow: 2;
-                    
-                    
+                    align-items: center;
+                      
 }
 .titles{
         color: rgb(114, 137, 218);
 }
 hr{
   color: white;
-}             
+}
+.social{
+        color: white;
+}
+.footer-column li{
+                 padding: 10px 20px;
+}
+.footer-column-ita span{
+                      padding: 6px 4px;
+}
+.footer-column-ita h2{
+                      padding-top: 23px;
+                      padding-bottom: 29px ;
+                      padding-right: 20px;
+                      padding-left: 0px;
+}
+.footer-column-ita a{
+                  color: white;
+                  padding-top: 4px;
+                  padding-bottom: 24px ;
+                  padding-right: 110px;
+                  padding-left: 1px;
+}
+.social{
+        padding-top: 4px;
+        padding-bottom: 24px ;
+        padding-right: 110px;
+        padding-left: 1px;
+}
+.lastfooter{
+              display: flex;
+              justify-content: space-between;
+              background-color:rgb(44, 47, 51);
+              align-content: center;
+              padding-left: 400px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-right: 460px;
+}
+.sign-up{
+            border: none;
+            background-color:rgb(114, 137, 218);                           
+            border-radius: 14px 14px 11px;
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            padding-top: 8px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+              
+           
+}            
+ 
+
+  
+
+            
+       
+                              
+               
+                    
+                    
+                           
+
                                    
+               
+                
+                
 
                   
                   
