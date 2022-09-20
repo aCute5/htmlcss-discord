@@ -107,7 +107,8 @@ a{
                         display: flex;
                         background-color: white;
                         justify-content: center;
-  }
+}
+
 .section-first{
                 max-width: 1000px;
                 display:flex;
@@ -132,7 +133,7 @@ a{
                     align-items: center;
                     padding-top: 100px;
                     background-color: rgba(44, 47, 51, 10%);
-                    background-image:url(../img/wave.svg);
+                    
 }
 .svg-second{
             flex-basis: 60%;      
