@@ -33,9 +33,10 @@ a{
   color: white;
 }
 .container-nav-center{
+
                         display: flex;
                         justify-content: center;
-                        align-content: space-around;
+                        align-content: space-between;
                         flex-grow: 2;
                         flex-wrap: wrap;
                         padding-left: 10px;                        
@@ -63,7 +64,6 @@ a{
                             padding-bottom: 5px; 
 }   
 .container-header{
-                    max-width: 600px;
                     display: flex;
                     justify-content: center;
                     flex-wrap: wrap;
@@ -74,7 +74,7 @@ a{
                     
 }                    
 .container-intro{
-                    width: 750px;
+                    width: 700px;
                     color: white;
                     text-align: center; 
                     font-size: 15px;
@@ -106,7 +106,7 @@ a{
   }
 .container-section{
                         display: flex;
-                        background-color: white;
+                        
                         justify-content: center;
 }
 
@@ -118,30 +118,39 @@ a{
                 justify-content: flex-start;
                 align-items: center;
                 padding-top: 100px;
+                flex-grow: 1;
                 
-  }
+}
 .svg{
-        flex-basis: 65%;
+        flex-basis: 80%;
+        flex-grow:2;
   }
-.section-first div{                        
-                      flex-basis: 35%;
+.section-written{                        
+                 flex-basis: 35%;
+                 width: 200px;
   }
 .section-second{
-                    
                     display:flex;
                     flex-wrap: nowrap;
                     flex-direction: row-reverse;
                     align-items: center;
                     padding-top: 100px;
-                    background-color: rgba(44, 47, 51, 10%);
+                    
                     
 }
+
 .svg-second{
             flex-basis: 60%;      
 }
-.section-second div{                        
-                    flex-basis:40%;
+.section-written2{                        
+                flex-basis: 35%;
+                width: 300px;
 }
+.section-written3{                        
+                text-align: center;
+                width: 950px;
+}      
+
 .section-third{
     max-width: 1000px;
     display:flex;
@@ -157,18 +166,18 @@ a{
                     flex-basis:50%;
 }
 .section-fourth{
-                
                 display:flex;
                 flex-wrap: nowrap;
                 flex-direction: column;
                 align-items: center;
                 padding-top: 100px;
                 text-align: center;
-                background-color: rgba(44, 47, 51, 10%);
-  }                
-                
-             
-
+               
+}
+.wave{
+        display: block;
+        fill:grey;
+}                
               
            
 .stars{
@@ -284,7 +293,12 @@ hr{
               
            
 }            
+             
+
  
+     
+        
+
 
   
 
