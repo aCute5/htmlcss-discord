@@ -106,9 +106,14 @@ a{
   }
 .container-section{
                         display: flex;
-                        
-                        justify-content: center;
-}
+                        justify-content: center;             
+}   
+.container-section-grey{
+                        display: flex;
+                        background-color:rgb(202, 202, 202);
+                        justify-content: center;      
+}                     
+
 
 .section-first{
                 max-width: 1000px;
@@ -152,12 +157,12 @@ a{
 }      
 
 .section-third{
-    max-width: 1000px;
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 100px;
+                max-width: 1000px;
+                display:flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-items: center;
+                padding-top: 100px;
 }
 .svg-third{
             flex-basis: 50%;      
@@ -176,8 +181,19 @@ a{
 }
 .wave{
         display: block;
-        fill:grey;
-}                
+        color:rgb(202, 202, 202);
+        width: 100%;
+        margin-bottom: -40px;
+        
+}
+.wave180{
+        display: block;
+        color: rgb(202, 202, 202);;
+        transform: rotateY(180deg);
+        transform: rotateX(180deg);
+        width: 100%;
+        margin-top: -40px;
+}                         
               
            
 .stars{
@@ -185,6 +201,7 @@ a{
         background-image:url(../img/stars.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        width: 500px;
         margin-bottom: 100px;
         display: flex;
         justify-content: center;
